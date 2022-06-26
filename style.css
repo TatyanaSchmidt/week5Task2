@@ -1,0 +1,68 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(224, 223, 223);
+    padding: 10px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    background-color: #FFFDDE;
+    flex-grow: 1;
+    padding: 30 px;
+}
+
+aside {
+    background-color: #E7FBBE;
+    width: 35%;
+    text-align: center;
+    padding: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(224, 223, 223);
+}
+
+.footer {
+    background-color: rgb(253, 252, 252);
+    padding: 30px 20px;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+section {
+    background-color: khaki;
+    margin: 20px;
+    padding: 30px;
+}
+
+.oneSection,
+.twoSection {
+    flex-grow: 1;
+    text-align: center;
+    width: 300px;
+}
+
+.threeSection {
+    flex-grow: 2;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
